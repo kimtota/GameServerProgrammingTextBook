@@ -139,8 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="chapter1_primeNumber.cpp" />
-    <ClCompile Include="chapter1_primeNumberErrorneous.cpp" />
+    <ClCompile Include="primeNumber.cpp" />
+    <ClCompile Include="primeNumberErrorneous.cpp" />
+    <ClCompile Include="prime_number_multiothreaded.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

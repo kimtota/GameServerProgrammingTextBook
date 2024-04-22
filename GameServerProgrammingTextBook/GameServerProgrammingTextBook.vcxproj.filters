@@ -13,13 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\chapter1">
+      <UniqueIdentifier>{60487875-b88f-49bd-a849-f12f25a4c280}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter1_primeNumber.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="primeNumber.cpp">
+      <Filter>소스 파일\chapter1</Filter>
     </ClCompile>
-    <ClCompile Include="chapter1_primeNumberErrorneous.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="primeNumberErrorneous.cpp">
+      <Filter>소스 파일\chapter1</Filter>
+    </ClCompile>
+    <ClCompile Include="prime_number_multiothreaded.cpp">
+      <Filter>소스 파일\chapter1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
